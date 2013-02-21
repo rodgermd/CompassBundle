@@ -11,6 +11,7 @@ class AddLoadPathsCompilerPass implements CompilerPassInterface
   public function process(ContainerBuilder $container)
   {
     $compass_service_load_paths = $container->getParameter('assetic.filter.compass.load_paths');
-
+    $compass_service_load_paths[] = __DIR__ . '/Resources/assets/compass';
+    $container->setParameter('assetic.filter.compass.load_paths', $compass_service_load_paths);
   }
 }
