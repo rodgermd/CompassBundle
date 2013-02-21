@@ -1,5 +1,5 @@
 {
-  "name"       :"rodgermd/compass",
+  "name"       :"rodgermd/compass-bundle",
   "description":"Compass intergration",
   "homepage"   :"https://github.com/rodgermd/CompassBundle",
   "type"       :"symfony-bundle",
@@ -12,12 +12,13 @@
     }
   ],
   "require"    :{
-    "symfony/symfony":"*"
+    "symfony/symfony"      :"*",
+    "kriswallsmith/assetic":"*"
   },
   "autoload"   :{
     "psr-0":{
       "Rodgermd\\CompassBundle":""
     }
   },
-  "target-dir" :"Rodgermd/SfToolsBundle"
+  "target-dir" :"rodgermd/compass"
 }
