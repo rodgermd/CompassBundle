@@ -1,0 +1,3 @@
+parameters:
+  assetic.filter.compass.load_paths:
+    []
