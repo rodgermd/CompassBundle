@@ -1,0 +1,23 @@
+{
+  "name"       :"rodgermd/compass",
+  "description":"Compass intergration",
+  "homepage"   :"https://github.com/rodgermd/CompassBundle",
+  "type"       :"symfony-bundle",
+  "keywords"   :["compass"],
+  "license"    :"MIT",
+  "authors"    :[
+    {
+      "name" :"Alexander Murashov",
+      "email":"rodger@ladela.com"
+    }
+  ],
+  "require"    :{
+    "symfony/symfony":"*"
+  },
+  "autoload"   :{
+    "psr-0":{
+      "Rodgermd\\CompassBundle":""
+    }
+  },
+  "target-dir" :"Rodgermd/SfToolsBundle"
+}
