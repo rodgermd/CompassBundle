@@ -20,5 +20,5 @@
       "Rodgermd\\CompassBundle":""
     }
   },
-  "target-dir" :"rodgermd/compass-bundle"
+  "target-dir" :"Rodgermd/CompassBundle"
 }
