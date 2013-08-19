@@ -1,5 +1,5 @@
 @warn "This import is deprecated. Use 'compass/typography/links' instead.";
 
-@import "../typography/links/../typography/links/_hover-link";
-@import "../typography/links/../typography/links/_link-colors";
-@import "../typography/links/../typography/links/_unstyled-link";
+@import "../typography/links/hover-link";
+@import "../typography/links/link-colors";
+@import "../typography/links/unstyled-link";
